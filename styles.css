@@ -51,49 +51,131 @@ footer {
     width: 100%;
 }
 
-/* Project Page Specific Styles */
+/* About Me Pictures */
+#about-me-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#about-me-pictures img {
+    width: 23%;
+    height: auto;
+}
+
+/* About Me Header */
+#about-me-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about-me {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 40px 40px 40px;
+}
+
+/* Projects Header */
+#projects-header h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.project-images img {
+    width: 15vw; /* Reduced width to make images smaller */
+    height: 15vw; /* Making the images square */
+    object-fit: cover;
+}
+
+.project-info {
+    text-align: center;
+    width: 30%;
+}
+
+.project-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project-info a {
+    display: inline-block;
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Project Page Styles */
 #project-title {
     text-align: center;
-    font-size: 36px; /* Smaller size for project titles */
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center items vertically */
+    align-items: center;
     margin: 40px 0;
-    padding: 0 20px;
-}
-
-.section-content {
-    width: 40%; /* Fixed width for text box */
-    text-align: center;
-    margin: 0 auto;
-}
-
-.section-header h2 {
-    font-size: 32px;
-    margin: 0;
-    text-align: center; /* Center the header over the text box */
+    padding: 0 50px; /* Adjust padding to keep images away from the edges */
 }
 
 .text-box {
+    width: 50%; /* Set text box to 50% of the screen */
+    text-align: center;
     font-size: 18px;
-    margin-top: 5px;
+    margin: 0 20px; /* Add space between text and images */
 }
 
 .image-box {
-    width: 300px; /* Fixed width for images */
-    height: 300px; /* Fixed height for images */
+    width: 23%;
+    max-width: 400px;
+    height: auto;
     text-align: center;
-    flex-shrink: 0;
 }
 
 .image-box img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
+}
+
+/* Ensure the header stays centered */
+.section-header h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* Responsive Design */
@@ -103,13 +185,13 @@ footer {
         align-items: center;
     }
 
-    .section-content {
-        width: 80%; /* Adjust text box width on smaller screens */
+    .text-box {
+        width: 80%; /* Make text box larger for smaller screens */
+        margin: 20px 0;
     }
 
     .image-box {
         width: 80%;
-        height: auto;
         margin-bottom: 20px;
     }
 }
