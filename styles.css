@@ -107,8 +107,8 @@ footer {
 }
 
 .project-images img {
-    width: 15vw;
-    height: 15vw; /* Ensure the images are square */
+    width: 15vw; /* Fixed size */
+    height: 15vw; /* Fixed size and ensure square images */
     object-fit: cover;
 }
 
@@ -156,7 +156,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 40%;
+    width: 50%; /* Set the text box to take up 50% of the screen */
+    margin: 0 auto; /* Center the text box */
 }
 
 .section-header h2 {
@@ -171,8 +172,8 @@ footer {
 }
 
 .image-box {
-    width: 15vw;
-    height: 15vw; /* Ensure the images are square */
+    width: 15vw; /* Fixed size */
+    height: 15vw; /* Fixed size and ensure square images */
     max-width: 400px;
     max-height: 400px; /* Ensure the images are square */
     text-align: center;
