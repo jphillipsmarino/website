@@ -54,10 +54,8 @@ footer {
 /* Project Page Styles */
 #project-title {
     text-align: center;
-    font-size: 48px; /* Change this value to adjust the font size */
+    font-size: 48px;
     margin-bottom: 20px;
-    font-family: 'Baloo 2', sans-serif; /* This sets the font */
-    color: #283618; /* This sets the color */
 }
 
 .project-section {
@@ -71,10 +69,9 @@ footer {
 .section-header {
     width: 100%;
     text-align: center;
-    font-size: 32px; /* Change this value to adjust the font size */
+    font-size: 32px;
     margin-bottom: 10px;
-    font-family: 'Baloo 2', sans-serif; /* This sets the font */
-    color: #283618; /* This sets the color */
+    color: #283618;
 }
 
 .section-content {
@@ -87,12 +84,10 @@ footer {
 .text-box {
     width: 30%;
     text-align: center;
-    font-size: 18px; /* Change this value to adjust the font size */
-    font-family: 'Baloo 2', sans-serif; /* This sets the font */
-    color: #283618; /* This sets the color */
+    font-size: 18px;
+    color: #283618;
     margin-top: 5px;
 }
-
 
 .image-box {
     width: 25%;
