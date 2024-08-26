@@ -221,9 +221,10 @@ nav ul li a {
 }
 
 .section-header {
-    text-align: center;
+    text-align: left; /* Left aligned, inline with the content */
     margin-bottom: 20px;
     color: #606C38; /* Using another shade from the palette */
+    font-size: 24px;
 }
 
 .section-content {
@@ -236,15 +237,18 @@ nav ul li a {
 .text-box {
     flex: 1;
     padding: 20px;
-    background-color: #FEFAE0;
+    background-color: #FEFAE0; /* Remove the border, but keep padding */
     color: #283618;
-    border: 1px solid #DDA15E;
-    border-radius: 5px;
+    border: none; /* Remove the border */
+    border-radius: 0; /* Remove border radius */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    width: 60%; /* Adjust the width to match the design */
 }
 
 .image-box {
     flex: 1;
     text-align: center;
+    width: 40%; /* Adjust the width to match the design */
 }
 
 .image-box img {
@@ -261,4 +265,3 @@ footer {
     padding: 10px 0;
     margin-top: 40px;
 }
-
