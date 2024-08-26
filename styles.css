@@ -54,9 +54,12 @@ footer {
 /* Project Page Styles */
 #project-title {
     text-align: center;
-    font-size: 48px;
+    font-size: 48px; /* Change this value to adjust the font size */
     margin-bottom: 20px;
+    font-family: 'Baloo 2', sans-serif; /* This sets the font */
+    color: #283618; /* This sets the color */
 }
+
 
 .project-section {
     display: flex;
@@ -69,9 +72,10 @@ footer {
 .section-header {
     width: 100%;
     text-align: center;
-    font-size: 32px;
+    font-size: 32px; /* Change this value to adjust the font size */
     margin-bottom: 10px;
-    color: #283618;
+    font-family: 'Baloo 2', sans-serif; /* This sets the font */
+    color: #283618; /* This sets the color */
 }
 
 .section-content {
@@ -84,8 +88,9 @@ footer {
 .text-box {
     width: 30%;
     text-align: center;
-    font-size: 18px;
-    color: #283618;
+    font-size: 18px; /* Change this value to adjust the font size */
+    font-family: 'Baloo 2', sans-serif; /* This sets the font */
+    color: #283618; /* This sets the color */
     margin-top: 5px;
 }
 
@@ -102,6 +107,38 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Project Page Title */
+.project-page #project-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #283618;
+}
+
+/* Project Page Section Headers */
+.project-page .section-header {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #283618;
+}
+
+/* Project Page Text Boxes */
+.project-page .text-box {
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #283618;
+    margin-top: 5px;
+}
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
