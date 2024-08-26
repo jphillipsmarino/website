@@ -56,47 +56,49 @@ footer {
     text-align: center;
     font-size: 48px;
     margin-bottom: 20px;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
 }
 
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 40px 0;
-    padding: 0 20px;
+    padding: 0 40px; /* Increase padding to create space on the edges */
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
 }
 
 .section-header h2 {
     font-size: 32px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
-    flex: 1 1 100%;
+    margin: 0;
 }
 
-.text-box {
-    width: 30%;
-    text-align: center;
+.text-box p {
     font-size: 18px;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .image-box {
-    width: 400px;
-    height: 400px;
+    width: 25%;
+    max-width: 400px;
     text-align: center;
-    flex-shrink: 0;
+    margin-right: 10px; /* Adjust to reduce space between image and text */
+    margin-left: 10px; /* Adjust to reduce space between image and text */
 }
 
 .image-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Responsive Design */
@@ -109,12 +111,12 @@ footer {
     .section-content {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .image-box {
         width: 80%;
         margin-bottom: 20px;
-        height: auto;
     }
 
     .text-box {
