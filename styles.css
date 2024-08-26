@@ -161,66 +161,7 @@ footer {
     }
 }
 
-
-
-
-
-
-
-/* General Styles */
-body {
-    font-family: 'Baloo 2', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FEFAE0;
-    color: #283618;
-}
-
-header {
-    background: #283618;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #FEFAE0;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-main {
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-footer {
-    background: #283618;
-    color: #FEFAE0;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Project Section Styles */
+/* Project Page Specific Styles */
 #project-video {
     margin-bottom: 20px;
 }
@@ -243,8 +184,8 @@ footer {
 }
 
 .image-box img {
-    width: 400px;
-    height: 400px;
+    width: 400px !important;
+    height: 400px !important;
     object-fit: cover;
 }
 
@@ -265,7 +206,7 @@ footer {
 
     .image-box img {
         width: 100%;
-        max-width: 400px; /* Ensures the image does not exceed 400px width */
+        max-width: 400px !important; /* Ensures the image does not exceed 400px width */
         height: auto;
     }
 
