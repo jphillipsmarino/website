@@ -221,38 +221,35 @@ nav ul li a {
 }
 
 .section-header {
-    text-align: left; /* Left aligned, inline with the content */
+    text-align: left;
     margin-bottom: 20px;
-    color: #606C38; /* Using another shade from the palette */
+    color: #606C38;
     font-size: 24px;
 }
 
 .section-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .text-box {
     flex: 1;
     padding: 20px;
-    background-color: #FEFAE0; /* Remove the border, but keep padding */
     color: #283618;
-    border: none; /* Remove the border */
-    border-radius: 0; /* Remove border radius */
-    box-sizing: border-box; /* Ensure padding doesn't affect the width */
-    width: 60%; /* Adjust the width to match the design */
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    width: 60%;
 }
 
 .image-box {
-    flex: 1;
+    flex: 0 0 400px;
     text-align: center;
-    width: 40%; /* Adjust the width to match the design */
 }
 
 .image-box img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
