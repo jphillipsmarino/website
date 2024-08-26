@@ -100,6 +100,25 @@ footer {
     margin-right: auto;
 }
 
+/* Adjustments for aligning headers with images */
+.project-section .text-box {
+    margin-top: 0; /* Remove any added margin */
+}
+
+.project-section .section-header {
+    margin-bottom: 5px; /* Smaller margin between header and text */
+}
+
+.project-section .image-box,
+.project-section .text-box,
+.project-section .section-header {
+    padding: 10px; /* Add padding for spacing between elements */
+}
+
+.project-section {
+    gap: 10px; /* Space between sections */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .project-section {
