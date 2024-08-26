@@ -53,16 +53,12 @@ footer {
 
 /* Project Page Styles */
 #project-title {
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
     text-align: center;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
 .project-section {
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
@@ -102,6 +98,25 @@ footer {
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Adjustments for aligning headers with images */
+.project-section .text-box {
+    margin-top: 0; /* Remove any added margin */
+}
+
+.project-section .section-header {
+    margin-bottom: 5px; /* Smaller margin between header and text */
+}
+
+.project-section .image-box,
+.project-section .text-box,
+.project-section .section-header {
+    padding: 10px; /* Add padding for spacing between elements */
+}
+
+.project-section {
+    gap: 10px; /* Space between sections */
 }
 
 /* Responsive Design */
