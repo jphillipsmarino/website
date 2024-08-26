@@ -53,12 +53,16 @@ footer {
 
 /* Project Page Styles */
 #project-title {
+    color: #283618;
+    font-family: 'Baloo 2', sans-serif;
     text-align: center;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
 .project-section {
+    color: #283618;
+    font-family: 'Baloo 2', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
