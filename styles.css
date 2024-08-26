@@ -51,95 +51,10 @@ footer {
     width: 100%;
 }
 
-/* About Me Pictures */
-#about-me-pictures {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-
-#about-me-pictures img {
-    width: 23%;
-    height: auto;
-}
-
-/* About Me Header */
-#about-me-header h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-/* About Me Section */
-#about-me {
-    text-align: center;
-    font-size: 18px;
-    margin: 0 40px 40px 40px;
-}
-
-/* Projects Header */
-#projects-header h2 {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-/* Projects Section */
-.project-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.project {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-
-.project-images {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: nowrap;
-}
-
-.project-images img {
-    width: 15vw; /* Fixed size */
-    height: 15vw; /* Fixed size and ensure square images */
-    object-fit: cover;
-}
-
-.project-info {
-    text-align: center;
-    width: 30%;
-}
-
-.project-info h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.project-info p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.project-info a {
-    display: inline-block;
-    background-color: #BC6C25;
-    color: #FEFAE0;
-    padding: 8px 12px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Project Page Styles */
+/* Project Page Specific Styles */
 #project-title {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px; /* Smaller size for project titles */
     margin-bottom: 20px;
 }
 
@@ -156,28 +71,26 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 35%; /* Reduced the width of the text box to make it smaller */
-    margin: 0 auto; /* Center the text box */
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 40%; /* Fixed width for text box */
 }
 
 .section-header h2 {
     font-size: 32px;
     margin: 0;
+    text-align: center; /* Center the header over the text box */
 }
 
-.text-box p {
+.text-box {
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 0;
 }
 
 .image-box {
-    width: 15vw; /* Fixed size */
-    height: 15vw; /* Fixed size and ensure square images */
-    max-width: 400px;
-    max-height: 400px; /* Ensure the images are square */
+    width: 15vw; /* Adjusted width to match the size on the home page */
+    height: 15vw; /* Ensuring the height matches the width */
+    max-width: 300px; /* Optional: Cap the max width */
+    max-height: 300px; /* Optional: Cap the max height */
     text-align: center;
 }
 
