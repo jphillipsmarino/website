@@ -56,14 +56,12 @@ footer {
     text-align: center;
     font-size: 48px;
     margin-bottom: 20px;
-    font-family: 'Baloo 2', sans-serif;
-    color: #283618;
 }
 
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
     margin: 40px 0;
     padding: 0 20px;
 }
@@ -72,15 +70,14 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 32px;
-    margin-bottom: 10px; /* Small space between header and text */
-    font-family: 'Baloo 2', sans-serif;
+    margin-bottom: 10px;
     color: #283618;
 }
 
 .section-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -88,14 +85,14 @@ footer {
     width: 30%;
     text-align: center;
     font-size: 18px;
-    font-family: 'Baloo 2', sans-serif;
     color: #283618;
-    margin-top: 5px; /* Ensure small space between header and text */
+    margin-top: 5px;
 }
 
 .image-box {
     width: 25%;
     max-width: 400px;
+    margin: 0 10px;
 }
 
 .image-box img {
