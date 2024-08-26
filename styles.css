@@ -61,17 +61,15 @@ footer {
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center; /* Center items vertically */
     margin: 40px 0;
     padding: 0 20px;
 }
 
 .section-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
     width: 40%; /* Fixed width for text box */
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section-header h2 {
@@ -83,23 +81,19 @@ footer {
 .text-box {
     font-size: 18px;
     margin-top: 5px;
-    margin-bottom: 0;
 }
 
 .image-box {
-    width: 15vw; /* Adjusted width to match the size on the home page */
-    height: 15vw; /* Ensuring the height matches the width */
-    max-width: 300px; /* Optional: Cap the max width */
-    max-height: 300px; /* Optional: Cap the max height */
+    width: 300px; /* Fixed width for images */
+    height: 300px; /* Fixed height for images */
     text-align: center;
+    flex-shrink: 0;
 }
 
 .image-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Responsive Design */
@@ -110,18 +104,12 @@ footer {
     }
 
     .section-content {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+        width: 80%; /* Adjust text box width on smaller screens */
     }
 
     .image-box {
         width: 80%;
+        height: auto;
         margin-bottom: 20px;
-    }
-
-    .text-box {
-        width: 100%;
-        text-align: center;
     }
 }
