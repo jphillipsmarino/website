@@ -51,17 +51,95 @@ footer {
     width: 100%;
 }
 
-/* Project Page Specific Styles */
-.project-page h1,
-.project-page h2,
-.project-page p {
-    font-family: 'Baloo 2', sans-serif;
-    color: #283618;
+/* About Me Pictures */
+#about-me-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
+#about-me-pictures img {
+    width: 23%;
+    height: auto;
+}
+
+/* About Me Header */
+#about-me-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about-me {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 40px 40px 40px;
+}
+
+/* Projects Header */
+#projects-header h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.project-images img {
+    width: 15vw; /* Reduced width to make images smaller */
+    height: 15vw; /* Making the images square */
+    object-fit: cover;
+}
+
+.project-info {
+    text-align: center;
+    width: 30%;
+}
+
+.project-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project-info a {
+    display: inline-block;
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Project Page Styles */
 #project-title {
     text-align: center;
-    font-size: 32px; /* Smaller size for project titles */
+    font-size: px;
     margin-bottom: 20px;
 }
 
