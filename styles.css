@@ -107,7 +107,7 @@ footer {
 }
 
 .project-images img {
-    width: 15vw; /* Match the home page size */
+    width: 15vw;
     height: 15vw; /* Ensure the images are square */
     object-fit: cover;
 }
@@ -172,8 +172,9 @@ footer {
 
 .image-box {
     width: 15vw;
-    height: 15vw; /* Match the home page size */
+    height: 15vw; /* Ensure the images are square */
     max-width: 400px;
+    max-height: 400px; /* Ensure the images are square */
     text-align: center;
 }
 
