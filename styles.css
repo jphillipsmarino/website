@@ -37,8 +37,8 @@ nav ul li a {
 
 main {
     padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px; /* Increased padding for more space around content */
+    padding-right: 40px;
 }
 
 footer {
@@ -136,31 +136,6 @@ footer {
     border-radius: 5px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .project {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-images {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .project-images img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    #about-me-pictures img {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
-
 /* Project Page Specific Styles */
 #project-video {
     margin-bottom: 20px;
@@ -168,12 +143,15 @@ footer {
 
 #project-title {
     text-align: center;
+    font-size: 42px; /* Increased font size for the project title */
     margin-bottom: 40px;
 }
 
 .project-header {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 28px; /* Match the heading style */
+    color: #283618; /* Use the same color as the home page */
 }
 
 .project-content {
@@ -187,6 +165,7 @@ footer {
     width: 400px !important;
     height: 400px !important;
     object-fit: cover;
+    margin-right: 20px; /* Added space between image and text */
 }
 
 .text-box {
@@ -213,4 +192,9 @@ footer {
     .text-box {
         margin: 20px 0;
     }
+
+    .project-info {
+        width: 100%; /* Ensures proper alignment on smaller screens */
+    }
 }
+
