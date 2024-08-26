@@ -156,8 +156,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 50%; /* Set the text box to take up 50% of the screen */
+    width: 35%; /* Reduced the width of the text box to make it smaller */
     margin: 0 auto; /* Center the text box */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .section-header h2 {
