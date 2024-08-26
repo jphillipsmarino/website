@@ -1,5 +1,5 @@
-/* General Styles */
-body {
+ /* General Styles */
+ body {
     font-family: 'Baloo 2', sans-serif;
     margin: 0;
     padding: 0;
@@ -51,52 +51,137 @@ footer {
     width: 100%;
 }
 
+/* About Me Pictures */
+#about-me-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#about-me-pictures img {
+    width: 23%;
+    height: auto;
+}
+
+/* About Me Header */
+#about-me-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about-me {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 40px 40px 40px;
+}
+
+/* Projects Header */
+#projects-header h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.project-images img {
+    width: 15vw; /* Reduced width to make images smaller */
+    height: 15vw; /* Making the images square */
+    object-fit: cover;
+}
+
+.project-info {
+    text-align: center;
+    width: 30%;
+}
+
+.project-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project-info a {
+    display: inline-block;
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* Project Page Styles */
 #project-title {
     text-align: center;
     font-size: 48px;
     margin-bottom: 20px;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
 }
 
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 40px 0;
     padding: 0 20px;
 }
 
-.section-header h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
-    flex: 1 1 100%;
+    width: 40%;
 }
 
-.text-box {
-    width: 30%;
-    text-align: center;
+.section-header h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.text-box p {
     font-size: 18px;
-    color: #283618;
-    font-family: 'Baloo 2', sans-serif;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .image-box {
-    width: 400px;
-    height: 400px;
+    width: 25%;
+    max-width: 400px;
     text-align: center;
-    flex-shrink: 0;
 }
 
 .image-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Responsive Design */
@@ -109,12 +194,12 @@ footer {
     .section-content {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .image-box {
         width: 80%;
         margin-bottom: 20px;
-        height: auto;
     }
 
     .text-box {
