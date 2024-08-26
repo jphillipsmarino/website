@@ -61,7 +61,7 @@ footer {
 .project-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Align items at the top */
     margin: 40px 0;
     padding: 0 20px;
 }
@@ -70,13 +70,13 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Small space between header and text */
 }
 
 .section-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Align items at the top */
     width: 100%;
 }
 
@@ -84,6 +84,7 @@ footer {
     width: 40%;
     text-align: center;
     font-size: 18px;
+    margin-top: 5px; /* Ensure small space between header and text */
 }
 
 .image-box {
