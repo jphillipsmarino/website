@@ -160,3 +160,105 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: 'Baloo 2', sans-serif;
+    background-color: #FEFAE0; /* Slightly lighter background */
+    color: #283618;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #283618;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FEFAE0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Project Video Section */
+#project-video {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Project Title */
+#project-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #BC6C25; /* Slightly different color for the project title */
+}
+
+/* Project Sections */
+.project-section {
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #606C38; /* Using another shade from the palette */
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #FEFAE0;
+    color: #283618;
+    border: 1px solid #DDA15E;
+    border-radius: 5px;
+}
+
+.image-box {
+    flex: 1;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #283618;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
