@@ -265,6 +265,7 @@ footer {
 
     .image-box img {
         width: 100%;
+        max-width: 400px; /* Ensures the image does not exceed 400px width */
         height: auto;
     }
 
